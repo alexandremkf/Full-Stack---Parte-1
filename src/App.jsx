@@ -1,5 +1,9 @@
 import { useState } from 'react'
 
+const Statistics = (props) => {
+  
+}
+
 const App = () => {
   const [good, setGood] = useState(0)
   const [neutral, setNeutral] = useState(0)
