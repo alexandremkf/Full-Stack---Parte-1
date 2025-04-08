@@ -6,7 +6,14 @@ const Statistics = ({good, neutral, bad}) => {
   if (total == 0) {
     return <p>No feedback given</p>
   }
-   
+  
+  return(
+    <div>
+      <StatisticLine text="good" value good />
+      <StatisticLine text="neutral" value ={neutral} />
+      <StatisticLine text="bad" value ={bad} />
+    </div>
+  )
 }
 
 const App = () => {
